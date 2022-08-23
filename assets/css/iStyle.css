@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif bold;
+
+    font-size: 14px;
+    line-height: 1.6;
+    background-color: #8f8f8f;
+    color: #333;
+}
+
+/* Container */
+.container { 
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    background-color:#e0dfdf;
+    border-radius: 5px;
+}
+
+/* Scrollbar */
+*::-webkit-scrollbar {
+    width: 12px;
+    height: 11px;
+  }
+  
+*::-webkit-scrollbar-track {
+    background: #e0dfdf;
+  }
+  
+*::-webkit-scrollbar-thumb {
+    background-color: #303030;
+    border-radius: 20px;
+    border: 3px solid #303030;
+  }
+
+/* Content */
+
+.content{
+    width: 100%;
+    height: 100%;
+    margin-top: 17px;
+    margin-left: 25px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+/* Bots */
+
+.slides{
+    margin-top: 20px;
+    display: inline-flex; 
+    max-width: 1050px;
+    max-height: 400px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.slide{
+    font-family: 'Playfair Display', serif;
+    margin-top: 15px;
+    margin-left: 12px;
+    transition: transform .4s;
+    font-size: 19px;
+    min-width: 236px;
+    height: 275px;
+    max-height: 300px;
+    background-color: #303030;
+    border-radius: 45px 25px;
+    margin-right: 15px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.slide:hover{
+    transform: scale(1.06)
+}
+
+.slide_image{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* News */
+
+.slides2{
+    margin-bottom: 16px;
+}
+
+.content2{
+    max-width: 1050px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.posts{
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.post{
+    width: 500px;
+    max-width: 520px;
+    height: 285px;
+    max-height: 310px;
+    border-radius: 15px;
+    background-color: #303030;
+    margin-right: 30px;
+    font-size: 24px;
+    text-align: left;
+
+    transition: transform .4s;
+}
+
+
+.post:hover{
+    transform: scale(1.03);
+}
+
+.post_text{
+    font-family: 'Cormorant SC', serif;
+
+    color: rgba(255, 255, 255, 0.794);
+    margin-right: 5px;
+    margin-top: 23px;
+    margin-left: 15px;
+    font-weight: 400;
+    margin-bottom: -18px;
+    font-size: 23px;
+}
+
+.post_button{
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 360px;
+    max-width: 790px;
+    max-height: 30px;
+    background-color: rgba(136, 255, 0, 0.698);
+    color: black;
+    margin-bottom: 0;
+
+    transition: background-color .4s;
+}
+
+.post_button:hover{
+    background-color: chartreuse;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    position: fixed; top: 0; left: 0; right: 0;
+    z-index: 9999;
+}
+
+.header_in {   
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -22px;
+    
+    transition: background-color .2s;
+}
+
+.header_in.changebg {
+    background-color: rgb(204, 201, 201);
+}
+
+.nav_link {
+    font-family: 'Playfair Display', serif;
+
+    text-decoration: none;
+    transition: color .2s;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 14px;
+    color: #333;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 14px;
+    margin-left: -1px;
+}
+
+.nav_link:hover {
+    color: gray;
+}
+
+.nav_link:after {
+    content: "";
+    display: block;
+    background-color: gray;
+    width: 100%;
+    height: 3px;
+    opacity: 0;
+
+    transition: opacity .1s linear;
+}
+
+.nav_link:hover:after {
+    opacity: 1;
+}
+
+
+/* Logo */
+
+.logo_text{
+    font-family: 'Montserrat', sans-serif;
+
+    color: #333;
+    display: inline-block;
+    margin-left: 14px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+/* Footer */
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    
+    max-width: 1100px;
+    margin-left: -25px;
+    margin-right: 23px;
+    margin-top: 180px;
+    transition: background-color 0.8s;
+}
+
+footer.changebg{
+    background-color: rgb(204, 201, 201);
+}
+
+.footer_h4{
+    margin-left: 20px;
+    font-size: 24px;
+    margin-bottom: -5px;
+}
+
+.footer_text{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #303030;
+    display: block;
+
+    transition: color .3s;
+}
+
+.footer_text:hover{
+    color: rgb(128, 128, 128);
+}
+
+
+/* Текст */
+
+.bold{
+    font-family: 'Montserrat', sans-serif bold;
+
+    max-width: 960px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.p {
+    font-family: 'Montserrat', sans-serif bold;
+
+    max-width: 960px;
+    font-size: 26px;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-bottom: -12px;
+}
+
+a{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+    font-size: 26px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+h3{
+    color:rgba(255, 255, 255, 0.883);
+    margin-left: 15px;
+    margin-bottom: -24px;
+    margin-top: 17px;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+}
+
+
+
+

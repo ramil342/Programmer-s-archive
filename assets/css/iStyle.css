@@ -1,23 +1,30 @@
 body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif bold;
-
-    font-size: 14px;
+    font-family: 'Montserrat', sans-serif bold;    font-size: 14px;
     line-height: 1.6;
     background-color: #8f8f8f;
     color: #333;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1066px;
 }
 
 /* Container */
-.container { 
-    align-items: center;
-    width: 100%;
-    max-width: 1100px;
-    height: 100%;
+.container {
+    width: 120%;
     margin: 0 auto;
+    max-width: 1066px;
+    height: 100%;
     background-color:#e0dfdf;
-    border-radius: 5px;
+    align-items: center;
+
 }
+
+.wrapper {
+    display: inline-flex;
+    margin-right: -25px;
+
+}
+
 
 /* Scrollbar */
 *::-webkit-scrollbar {
@@ -38,11 +45,12 @@ body {
 /* Content */
 
 .content{
-    width: 100%;
+    width: 96%;
     height: 100%;
-    margin-top: 17px;
-    margin-left: 25px;
+    margin: 0 auto;
+    margin-left: 10px;
     border-radius: 5px 0px 0px 5px;
+    align-items: center;
 }
 
 /* Bots */
@@ -50,10 +58,9 @@ body {
 .slides{
     margin-top: 20px;
     display: inline-flex; 
-    max-width: 1050px;
+    max-width: 1030px;
     max-height: 400px;
     overflow-x: scroll;
-    overflow-y: hidden;
 }
 
 .slide{
@@ -73,7 +80,7 @@ body {
 }
 
 .slide:hover{
-    transform: scale(1.06)
+    transform: scale(1.03)
 }
 
 .slide_image{
@@ -84,11 +91,12 @@ body {
 /* News */
 
 .slides2{
+    margin-right: 10px;
     margin-bottom: 16px;
 }
 
 .content2{
-    max-width: 1050px;
+    max-width: 1070px;
     overflow-y: hidden;
     overflow-x: scroll;
 }
@@ -150,19 +158,19 @@ body {
 /* Header */
 
 .header {
-    width: 100%;
     position: fixed; top: 0; left: 0; right: 0;
     z-index: 9999;
 }
 
-.header_in {   
-    border-radius: 5px;
+.header_in { 
+    margin: auto;
+    max-width: 1066px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: -22px;
-    
     transition: background-color .2s;
+    background-color: rgb(204, 201, 201)
 }
 
 .header_in.changebg {
@@ -222,16 +230,10 @@ body {
 footer{
     font-family: 'Montserrat', sans-serif;
     
-    max-width: 1100px;
-    margin-left: -25px;
-    margin-right: 23px;
+    width: 100%;
     margin-top: 180px;
-    transition: background-color 0.8s;
 }
 
-footer.changebg{
-    background-color: rgb(204, 201, 201);
-}
 
 .footer_h4{
     margin-left: 20px;
@@ -296,6 +298,6 @@ h2{
     font-size: 35px;
 }
 
-
-
-
+img{
+    margin-left: 12px;
+}

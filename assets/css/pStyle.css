@@ -300,20 +300,20 @@ img{
     .about_h4{
         margin-top: -70px;
         font-size: 10px;
-        margin-left: 8px;
+        margin-left: 0px;
     }
 
     .p{
         font-size: 7px;
         margin-bottom: 5px;
-        margin-left: -12px;
+        margin-left: -20px;
     }
 
     .h2{
         font-family: 'Montserrat', sans-serif;
         font-size: 11px;
         margin-bottom: 1px;
-        margin-left: -12px;
+        margin-left: -20px;
         
     }
 
@@ -321,11 +321,11 @@ img{
         font-family: 'Montserrat', sans-serif;
         font-size: 10px;
         margin-bottom: 1px;
-        margin-left: -12px;
+        margin-left: -20px;
     }
 
     .about_text{
-        margin-left: 8px;
+        margin-left: 0px;
         font-size: 10px;
         color: #888686;
         display: block;
@@ -335,7 +335,7 @@ img{
 
     .button1{
         margin-top: -5px;
-        margin-left: 38px;
+        margin-left: 30px;
         font-size: 8px;
         padding-top: 6px;
         padding-left: 7px;

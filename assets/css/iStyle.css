@@ -48,7 +48,7 @@ body {
     width: 96%;
     height: 100%;
     margin: 0 auto;
-    margin-left: 10px;
+    margin-left: 20px;
     border-radius: 5px 0px 0px 5px;
     align-items: center;
 }
@@ -271,12 +271,14 @@ footer{
 
     max-width: 960px;
     font-size: 26px;
+    margin-left: 15px;
 }
 
 h5 {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     margin-bottom: -12px;
+    margin-left: 15px;
 }
 
 a{

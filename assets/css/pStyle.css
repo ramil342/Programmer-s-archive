@@ -102,6 +102,30 @@ img{
 }
 
 @media screen and (max-width: 2000px){
+    
+    .button1{
+        margin-left: 50px;
+    
+        padding-top: 12px;
+        padding-left: 14px;
+        padding-bottom: 12px;
+        padding-right: 14px;
+    
+        color:rgba(255, 255, 255, 0.959);
+        background-color: rgb(33,37,41);
+    
+        border-color: rgba(255, 255, 255, 0.959);
+        border-style: solid;
+        border-radius: 6px;
+        border-width: 1px;
+    
+        transition: background-color 0.3s ease, color 0.2s linear;
+    }
+    
+    .button1:hover{
+        color: #333;
+        background-color: rgba(255, 255, 255, 0.959);
+    }
 
     .img_fp{
         margin-bottom: 20px;
@@ -462,30 +486,6 @@ a:hover{
 }
 
 /* Button */
-
-.button{
-    margin-left: 50px;
-
-    padding-top: 12px;
-    padding-left: 14px;
-    padding-bottom: 12px;
-    padding-right: 14px;
-
-    color:rgba(255, 255, 255, 0.959);
-    background-color: rgb(33,37,41);
-
-    border-color: rgba(255, 255, 255, 0.959);
-    border-style: solid;
-    border-radius: 6px;
-    border-width: 1px;
-
-    transition: background-color 0.3s ease, color 0.2s linear;
-}
-
-.button:hover{
-    color: #333;
-    background-color: rgba(255, 255, 255, 0.959);
-}
 
 .pj_button{
     font-size: 32px;
